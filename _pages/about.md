@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About Me
+
 I'm an undergraduate student at Johns Hopkins University pursuing a triple major in Computer Science, Electrical Engineering, and Computer Engineering, with minors in Robotics and Visual Arts. I'm a researcher in the JHU Social Cognitive AI (SCAI) Lab, advised by [Prof. Tianmin Shu](https://www.tshu.io/). I'm also fortunate to work at MIT's Computational Cognitive Science Group(CoCoSci) and Probabilistic Computing Project(ProbComp), advised by [Prof. Josh Tenenbaum](https://web.mit.edu/cocosci/josh.html) and [Prof. Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/).
 
 My research interest is to uncover the computational principles that fuse human-like visual perception with high-level cognitive reasoning and instantiate them in embodied AI systems that truly understand and interact with the real world. I'd like to design multi-modal models that blend vision with language-grounded probabilistic reasoning so agents can infer goals, causality, and affordances from sparse observations. By embedding these models in robots and photorealistic simulators, I aim to create agents that can plan, communicate, and collaborate with humans in open-ended environments.
