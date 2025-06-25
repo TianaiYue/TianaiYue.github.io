@@ -71,12 +71,12 @@
 .profile_box {
   @include breakpoint($large) {
     display: block;
-    width: 100%;
+    width: 80%;
   }
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .author__avatar, .author__content, .author__urls-wrapper {
