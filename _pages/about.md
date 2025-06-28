@@ -32,7 +32,7 @@ My research interest is to uncover the computational principles that fuse human-
 
 
 # Selected Publications 
-
+<!-- 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -49,7 +49,7 @@ My research interest is to uncover the computational principles that fuse human-
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L0ujy2IAAAAJ&authuser=1&citation_for_view=L0ujy2IAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
-</div>
+</div> -->
 
 <!-- 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
