@@ -32,11 +32,11 @@ My research interest is to uncover the computational principles that fuse human-
 
 
 # Selected Publications 
-<!-- 
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">IEEE 2024</div>
+      <div class="badge">IEEE 2024 (Oral)</div>
       <img src='golocolor.png' alt="sym" width="100%">
     </div>
   </div>
@@ -49,20 +49,59 @@ My research interest is to uncover the computational principles that fuse human-
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L0ujy2IAAAAJ&authuser=1&citation_for_view=L0ujy2IAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
-</div> -->
-
-<!-- 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Engineering Applications of AI 2025</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Dual prototypes contrastive learning based semi-supervised segmentation method for intelligent medical applications](https://www.sciencedirect.com/science/article/pii/S0952197625009054?dgcid=coauthor)
+
+**Tianai Yue**, Rongtao Xu, Jingqian Wu, Wenjie Yang, Shide Du, Changwei Wang
+
+[**Project**](https://www.sciencedirect.com/science/article/pii/S0952197625009054?dgcid=coauthor) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
+<!-- - Your paper abstract or a short description goes here. -->
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICANN 2025</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Enhancing Graph Neural Networks with Mixup-Based Knowledge Distillation](https://ieeexplore.ieee.org/abstract/document/10888355)
+
+**Tianai Yue**, Jing Liu
+
+[**Project**](https://ieeexplore.ieee.org/abstract/document/10888355) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:qjMakFHDy7sC'></span></strong>
+<!-- - Your paper abstract or a short description goes here. -->
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Preprint 2025</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Distilling Multi-Teacher Knowledge from Distinct Graph Neural Networks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5084903)
+
+Jing Liu*, **Tianai Yue***, Chuanguang Yang, Yuqi Li, Qinfen Hao, Xiang Li, Shiping Wen
+
+[**Project**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5084903) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
+<!-- - Your paper abstract or a short description goes here. -->
+  </div>
+</div>
 
