@@ -53,6 +53,7 @@
     .paper-box-image{
         justify-content: center;
         display: flex;
+        flex-direction: column;
         width: 100%;
         order: 2;
         img {
@@ -100,10 +101,11 @@ h1:before, .anchor:before {
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    position: relative;
+    margin-bottom: .5em;
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    display: inline-block;
+    border-radius: 4px;
 }

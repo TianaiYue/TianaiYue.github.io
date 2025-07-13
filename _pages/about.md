@@ -35,8 +35,8 @@ My research interest is to uncover the computational principles that fuse human-
 
 <div class='paper-box'>
   <div class='paper-box-image'>
+    <div class="badge">ICASSP (Oral)</div>
     <div>
-      <div class="badge">IEEE 2024 (Oral)</div>
       <img src='images/golocolor.png' alt="sym" width="100%">
     </div>
   </div>
@@ -46,16 +46,12 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Xiangcheng Du, Jing Liu, Zhongli Fang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L0ujy2IAAAAJ&authuser=1&citation_for_view=L0ujy2IAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
-<!-- - Your paper abstract or a short description goes here. -->
-  </div>
-</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
+    <div class="badge">Engineering Applications of AI 2025</div>
     <div>
-      <div class="badge">Engineering Applications of AI 2025</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <img src='images/dual_prototypes.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -64,34 +60,27 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Rongtao Xu, Jingqian Wu, Wenjie Yang, Shide Du, Changwei Wang
 
-[**Project**](https://www.sciencedirect.com/science/article/pii/S0952197625009054?dgcid=coauthor) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
-<!-- - Your paper abstract or a short description goes here. -->
-  </div>
-</div>
+
 
 <div class='paper-box'>
   <div class='paper-box-image'>
+    <div class="badge">ICANN 2025</div>
     <div>
-      <div class="badge">ICANN 2025</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <img src='cswl.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Enhancing Graph Neural Networks with Mixup-Based Knowledge Distillation](https://ieeexplore.ieee.org/abstract/document/10888355)
+[Enhancing Graph Neural Networks with Mixup-Based Knowledge Distillation]()
 
 **Tianai Yue**, Jing Liu
 
-[**Project**](https://ieeexplore.ieee.org/abstract/document/10888355) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:qjMakFHDy7sC'></span></strong>
-<!-- - Your paper abstract or a short description goes here. -->
-  </div>
-</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
+    <div class="badge">Preprint 2025</div>
     <div>
-      <div class="badge">Preprint 2025</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <img src='images/DMKD.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -100,8 +89,4 @@ My research interest is to uncover the computational principles that fuse human-
 
 Jing Liu*, **Tianai Yue***, Chuanguang Yang, Yuqi Li, Qinfen Hao, Xiang Li, Shiping Wen
 
-[**Project**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5084903) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
-<!-- - Your paper abstract or a short description goes here. -->
-  </div>
-</div>
 
