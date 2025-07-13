@@ -75,7 +75,6 @@ My research interest is to uncover the computational principles that fuse human-
 </details>
 </div>
 
-
 [**Code**](https://github.com/yuelily2024/DPC) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
 
 </div>
