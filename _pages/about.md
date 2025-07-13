@@ -67,15 +67,16 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Rongtao Xu, Jingqian Wu, Wenjie Yang, Shide Du, Changwei Wang
 
-<details>
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+<details style="flex: 1;">
 <summary><strong>Abstract</strong></summary>
 <p style="font-size: 0.75em;">In medical intelligence applications, the labeling of medical data is crucial and expensive, so it becomes urgent to explore labeling-efficient ways to train applications. Semi-supervised techniques for medical image segmentation have demonstrated potential, effectively training models using scarce labeled data alongside a wealth of unlabeled data. Therefore, semi-supervised medical image segmentation is a key issue in engineering applications of medical intelligence. Consistency constraints based on prototype alignment provide an intuitively sensible way to discover valuable insights from unlabeled data that can motivate segmentation performance. In this work, we propose a Dual prototypes Contrastive Network to motivate semi-supervised medical segmentation accuracy by imposing image-level global prototype and pixel-level local prototype constraints. First, we introduce a Background-Separation Global Prototype Contrastive Learning technique that utilizes the natural mutual exclusivity of foreground and background to separate the inter-class distances and encourage the segmentation network to obtain segmentation results that are more complete and do not contain background regions. Second, we design a Cross-Consistent Local Prototype Contrastive Learning techniques to extend the perturbation consistency of the two networks to the prototype's localized response to the feature map, thereby shaping a more stable intra-class prototype space and producing accurate and robust pixel-level predictions. Finally, we comprehensively evaluate our method on mainstream semi-supervised medical image segmentation benchmarks and settings, and experimental results show that our proposed method outperforms current state-of-the-art methods. Specifically, our method achieves a Dice Coefficient score of 91.8 on the Automatic Cardiac Diagnosis Challenge dataset using only 10% labeled data training, 1.1% ahead of the second best method.</p>
 </details>
 
-<details>
-<summary><strong>Code</strong></summary>
-<p style="font-size: 0.75em;"><a href="https://github.com/yuelily2024/DPC">https://github.com/yuelily2024/DPC</a></p>
-</details>
+<div style="flex: 0 0 auto;">
+<strong>Code:</strong> <a href="https://github.com/yuelily2024/DPC">https://github.com/yuelily2024/DPC</a>
+</div>
+</div>
 <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
