@@ -46,10 +46,10 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Xiangcheng Du, Jing Liu, Zhongli Fang
 
-<div>
-<strong>Abstract</strong>
+<details>
+<summary><strong>Abstract</strong></summary>
 <p style="font-size: 0.75em;">Owing to powerful generative priors, Text-to-Image (T2I) diffusion models have achieved promising results in image colorization task. However, recent advanced methods primarily integrate global semantics. Such practice neglects local semantics, yielding suboptimal colorization performance. In this paper, we present a novel global-local semantic aware colorization method named GoLoColor, which performs semantic awareness at both global and local levels. The GoLoColor includes Global Aware (GoA) module, Local Aware module (LoA) and Semantic Aggregation (SA) module for semantic understanding. Specifically, the GoA produces global semantic embedding to represent whole image, while the LoA provides semantic support for local objects, particularly in scenes containing multiple entities. The SA module facilitates semantic interaction between local and global semantic embedding to produce richer semantic information. Finally, a controlled T2I diffusion model is utilized to produce color image guided by the aggregated semantic embedding. Comprehensive experiments demonstrate that our method achieves superior performance and can produce realistic colorization.</p>
-</div>
+</details>
 <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
@@ -69,8 +69,10 @@ My research interest is to uncover the computational principles that fuse human-
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
 <div style="flex: 1;">
-<strong>Abstract</strong>
+<details>
+<summary><strong>Abstract</strong></summary>
 <p style="font-size: 0.75em;">In medical intelligence applications, the labeling of medical data is crucial and expensive, so it becomes urgent to explore labeling-efficient ways to train applications. Semi-supervised techniques for medical image segmentation have demonstrated potential, effectively training models using scarce labeled data alongside a wealth of unlabeled data. Therefore, semi-supervised medical image segmentation is a key issue in engineering applications of medical intelligence. Consistency constraints based on prototype alignment provide an intuitively sensible way to discover valuable insights from unlabeled data that can motivate segmentation performance. In this work, we propose a Dual prototypes Contrastive Network to motivate semi-supervised medical segmentation accuracy by imposing image-level global prototype and pixel-level local prototype constraints. First, we introduce a Background-Separation Global Prototype Contrastive Learning technique that utilizes the natural mutual exclusivity of foreground and background to separate the inter-class distances and encourage the segmentation network to obtain segmentation results that are more complete and do not contain background regions. Second, we design a Cross-Consistent Local Prototype Contrastive Learning techniques to extend the perturbation consistency of the two networks to the prototype's localized response to the feature map, thereby shaping a more stable intra-class prototype space and producing accurate and robust pixel-level predictions. Finally, we comprehensively evaluate our method on mainstream semi-supervised medical image segmentation benchmarks and settings, and experimental results show that our proposed method outperforms current state-of-the-art methods. Specifically, our method achieves a Dice Coefficient score of 91.8 on the Automatic Cardiac Diagnosis Challenge dataset using only 10% labeled data training, 1.1% ahead of the second best method.</p>
+</details>
 </div>
 
 
@@ -95,10 +97,10 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Jing Liu
 
-<div>
-<strong>Abstract</strong>
+<details>
+<summary><strong>Abstract</strong></summary>
 <p style="font-size: 0.75em;">Graph Neural Networks (GNNs) have demonstrated remarkable potential in processing graphstructured data and have been widely adopted for various graph-related tasks. In recent years, graph knowledge distillation has emerged as an effective model optimization technique, achieving outstanding performance in enhancing GNN capabilities. However, it remains constrained by the inherent sparsity and dependency of graph data. To address this, we propose Mixup-driven Distillation for Graph Neural Networks (MD-GNN), an innovative framework that combines Mixup-based data augmentation with knowledge distillation to boost GNN performance. Specifically, we first leverages Mixup to perform linear interpolation on both node features and labels, generating diversified training samples while preserving original graph topology. Subsequently, based on these generated data, we extract knowledge from a pre-trained GNN teacher through output logit alignment to guide the training of student GNN models. Extensive experiments demonstrate that MD-GNN significantly outperforms existing baseline GNN models, achieving performance gains of 2.54%-3.73% on three benchmark datasets (Cora, CiteSeer, and PubMed). Notably, MD-GNN exhibits superior generalization capabilities and enhanced robustness, particularly showing notable advantages in noisy scenarios.</p>
-</div>
+</details>
 <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:qjMakFHDy7sC'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
@@ -117,10 +119,10 @@ My research interest is to uncover the computational principles that fuse human-
 
 Jing Liu\*, **Tianai Yue\***, Chuanguang Yang, Yuqi Li, Qinfen Hao, Xiang Li, Shiping Wen
 
-<div>
-<strong>Abstract</strong>
+<details>
+<summary><strong>Abstract</strong></summary>
 <p style="font-size: 0.75em;">Knowledge distillation on graph neural networks is a novel and practical model enhancement technique that has attracted widespread attention.   However, literature methods mostly work in the manner of the same teacher/student architecture.   In fact, the knowledge provided by the identical teacher model may be insufficient, leading to a lack of diversity and consequently limiting the capabilities of the student GNNs. In this paper, we innovatively propose Distinct Multi-teacher Knowledge Distillation method, namely DMKD,  to fully exploit the complementary knowledge from distinct GNN teachers. Specifically, we adopt distinct teachers to distill knowledge simultaneously to gain rich and diverse knowledge.  Moreover, to ensure comprehensive knowledge acquisition, we integrate the knowledge at different levels from all teachers and distill it to students. Essentially, our DMKD is a universal knowledge distillation framework that can be applied to arbitrary GNNs. Numerous experiments conducted on seven graph datasets demonstrate that our proposed DMKD significantly boosts students, with a classification improvement of up to 37.93\% and clustering enhancement ranging from 1.42% to 74.56%. More importantly, DMKD outperforms state-of-the-art distillation baselines. This robustly validates the efficacy and superiority of DMKD, highlighting that students guided by DMKD can extensively benefit from distinct teachers' interlayer knowledge and thus receive comprehensive guidance.</p>
-</div>
+</details>
 <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
   </div>
 </div>
