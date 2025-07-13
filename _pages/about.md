@@ -46,15 +46,18 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Xiangcheng Du, Jing Liu, Zhongli Fang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L0ujy2IAAAAJ&authuser=1&citation_for_view=L0ujy2IAAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
+<details>
+<summary><strong>Project</strong></summary>
+<p>We propose GoLoColor, a novel approach for automatic image colorization that combines global semantic understanding with local detail preservation. Our method uses a dual-branch architecture to capture both global context and local features, enabling semantically-aware colorization that maintains fine-grained details while ensuring global color consistency.</p>
+</details>
+<strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
 </div>
-
+<div class="badge">EAAI 2025</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Engineering Applications of AI 2025</div>
       <img src='images/dual_prototypes.png' alt="sym" width="100%">
     </div>
   </div>
@@ -64,15 +67,18 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Rongtao Xu, Jingqian Wu, Wenjie Yang, Shide Du, Changwei Wang
 
-[**Project**](https://www.sciencedirect.com/science/article/pii/S0952197625009054?dgcid=coauthor) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
+<details>
+<summary><strong>Project</strong></summary>
+<p>We introduce a dual prototypes contrastive learning framework for semi-supervised medical image segmentation. Our method leverages both positive and negative prototypes to enhance feature discrimination while reducing the dependency on labeled data, making it particularly suitable for medical applications where annotations are scarce and expensive.</p>
+</details>
+<strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
 </div>
-
+<div class="badge">ICANN 2025</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ICANN 2025</div>
       <img src='images/enhancing.png' alt="sym" width="100%">
     </div>
   </div>
@@ -82,15 +88,19 @@ My research interest is to uncover the computational principles that fuse human-
 
 **Tianai Yue**, Jing Liu
 
-[**Project**](https://ieeexplore.ieee.org/abstract/document/10888355) <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:qjMakFHDy7sC'></span></strong>
+<details>
+<summary><strong>Project</strong></summary>
+<p>We propose a novel knowledge distillation framework for Graph Neural Networks that incorporates mixup techniques to improve model generalization. Our method combines the structural knowledge from teacher networks with data augmentation strategies, leading to more robust and accurate graph representations.</p>
+</details>
+<strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:qjMakFHDy7sC'></span></strong>
 <!-- - Your paper abstract or a short description goes here. -->
   </div>
 </div>
 
+<div class="badge">Preprint 2025</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Preprint 2025</div>
       <img src='images/DMKD.png' alt="sym" width="100%">
     </div>
   </div>
@@ -99,4 +109,12 @@ My research interest is to uncover the computational principles that fuse human-
 [Distilling Multi-Teacher Knowledge from Distinct Graph Neural Networks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5084903)
 
 Jing Liu*, **Tianai Yue***, Chuanguang Yang, Yuqi Li, Qinfen Hao, Xiang Li, Shiping Wen
+
+<details>
+<summary><strong>Project</strong></summary>
+<p>We develop a multi-teacher knowledge distillation framework that effectively combines knowledge from diverse Graph Neural Network architectures. Our approach addresses the challenge of integrating heterogeneous graph representations while maintaining computational efficiency and improving overall model performance.</p>
+</details>
+<strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
+  </div>
+</div>
 
