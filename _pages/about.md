@@ -33,9 +33,9 @@ My research interest is to uncover the computational principles that fuse human-
 
 # Selected Publications 
 
+<div class="badge">ICASSP (Oral)</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="badge">ICASSP (Oral)</div>
     <div>
       <img src='images/golocolor.png' alt="sym" width="100%">
     </div>
@@ -55,7 +55,7 @@ My research interest is to uncover the computational principles that fuse human-
   <div class='paper-box-image'>
     <div>
       <div class="badge">Engineering Applications of AI 2025</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <img src='images/dual_prototypes.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -73,7 +73,7 @@ My research interest is to uncover the computational principles that fuse human-
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICANN 2025</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <img src='images/enhancing.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -91,7 +91,7 @@ My research interest is to uncover the computational principles that fuse human-
   <div class='paper-box-image'>
     <div>
       <div class="badge">Preprint 2025</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <img src='images/DMKD.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
