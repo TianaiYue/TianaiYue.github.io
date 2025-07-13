@@ -37,7 +37,7 @@ My research interest is to uncover the computational principles that fuse human-
   <div class='paper-box-image'>
     <div>
       <div class="badge">IEEE 2024 (Oral)</div>
-      <img src='golocolor.png' alt="sym" width="100%">
+      <img src='images/golocolor.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
