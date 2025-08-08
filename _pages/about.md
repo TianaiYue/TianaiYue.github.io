@@ -105,7 +105,7 @@ My research interest is to uncover the computational principles that fuse human-
   </div>
 </div>
 
-<div class="badge">Preprint 2025</div>
+<!-- <div class="badge">Preprint 2025</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -125,4 +125,4 @@ Jing Liu\*, **Tianai Yue\***, Chuanguang Yang, Yuqi Li, Qinfen Hao, Xiang Li, Sh
 <strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:IjCSPb-OGe4C'></span></strong>
   </div>
 </div>
-
+ -->
