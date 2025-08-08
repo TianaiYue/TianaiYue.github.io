@@ -33,7 +33,7 @@ My research interest is to uncover the computational principles that fuse human-
 
 # Selected Publications 
 
-<div class="badge">ICASSP (Oral)</div>
+<div class="badge">ICASSP 2025(Oral)</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
