@@ -80,7 +80,7 @@ My research interest is to uncover the computational principles that fuse human-
 <details>
 <summary><strong>Code</strong></summary>
 <p style="font-size: 0.75em;">
-https://github.com/yuelily2024/DPC**
+<a href="https://github.com/yuelily2024/DPC">https://github.com/yuelily2024/DPC</a>
 </p>
 </details>
 </div>
