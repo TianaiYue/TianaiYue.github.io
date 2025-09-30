@@ -33,6 +33,32 @@ My research interest is to uncover the computational principles that fuse human-
 
 # Selected Publications 
 
+# Selected Publications 
+
+<div class="badge">NeurIPS 2025</div>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/roboscape.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration](https://neurips.cc/virtual/2025/poster/119080)
+
+Yan Zhuang*, Jiawei Ren*, Xiaokang Ye*, Jianzhi Shen, Ruixuan Zhang, **Tianai Yue**, Muhammad Faayez, Xuhong He, Xiyan Zhang, Ziqiao Ma, Lianhui Qin, Zhiting Hu, Tianmin Shu
+
+<details>
+<summary><strong>Abstract</strong></summary>
+<p style="font-size: 0.75em;">Recent advances in foundation models have shown promising results in developing generalist robotics that can perform diverse tasks in open-ended scenarios given multimodal inputs. However, current work has been mainly focused on indoor, household scenarios. In this work, we present RoboScape, a simulation platform for embodied AI in large-scale, photorealistic urban environments. Built on Unreal Engine 5, RoboScape procedurally generates unlimited photorealistic urban scenes populated with dynamic elements such as pedestrians and traffic systems, surpassing prior urban simulations in realism, complexity, and scalability. It also supports multi-robot control and communication. With these key features, we build two challenging robot benchmarks: (1) a multimodal instruction-following task, where a robot must follow vision-language navigation instructions to reach a destination in the presence of pedestrians and traffic; and (2) a multi-agent search task, where two robots must communicate to cooperatively locate and meet each other. Unlike existing benchmarks, these two new benchmarks comprehensively evaluate a wide range of critical robot capacities in realistic scenarios, including (1) multimodal instructions grounding, (2) 3D spatial reasoning in large environments, (3) safe, long-range navigation with people and traffic, (4) multi-robot collaboration, and (5) grounded communication. Our experimental results demonstrate that state-of-the-art models, including vision-language models (VLMs), struggle with our tasks, lacking robust perception, reasoning, and planning abilities necessary for urban environments.</p>
+</details>
+<strong><span class='show_paper_citations' data='L0ujy2IAAAAJ:UeHWp8X0CEIC'></span></strong>
+<!-- - Your paper abstract or a short description goes here. -->
+  </div>
+</div>
+
+
+
 <div class="badge">ICASSP 2025(Oral)</div>
 <div class='paper-box'>
   <div class='paper-box-image'>
