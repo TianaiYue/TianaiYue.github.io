@@ -30,18 +30,15 @@ My research interest is to uncover the computational principles that fuse human-
 
 <!-- # Research of Thoughts -->
 
-
-# Selected Publications 
-
 # Selected Publications 
 
 <div class="badge">NeurIPS 2025</div>
 <div class='paper-box'>
-  <div class='paper-box-image'>
+  <!-- <div class='paper-box-image'>
     <div>
       <img src='images/roboscape.png' alt="sym" width="100%">
     </div>
-  </div>
+  </div> -->
   <div class='paper-box-text' markdown="1">
 
 [Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration](https://neurips.cc/virtual/2025/poster/119080)
