@@ -23,9 +23,6 @@ I'm an undergraduate student at Johns Hopkins University pursuing a triple major
 
 My research interest is to uncover the computational principles that fuse human-like visual perception with high-level cognitive reasoning and instantiate them in embodied AI systems that truly understand and interact with the real world. I'd like to design multi-modal models that blend vision with language-grounded probabilistic reasoning so agents can infer goals, causality, and affordances from sparse observations. By embedding these models in robots and photorealistic simulators, I aim to create agents that can plan, communicate, and collaborate with humans in open-ended environments.
 
-> “What I cannot create, I do not understand.”<br>
-> — Richard Feynman
-
 Outside the lab, I enjoy traveling, playing polo, making visual art, and getting swept up in musical theatre. I once spent a month in Seville studying art history to wander through sunlit streets, look closely at paintings, and think about how people tell stories through images. Intelligence is not only something to model, but also something expressed through movement, color, music, and culture.
 
 <!-- # News
