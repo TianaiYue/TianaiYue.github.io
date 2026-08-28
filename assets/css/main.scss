@@ -107,3 +107,129 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Interactive mural background
+   ========================================================================== */
+
+body {
+    background: #ded3c2;
+}
+
+.interactive-background {
+    --background-shift-x: 0px;
+    --background-shift-y: 0px;
+    --background-scroll-y: 0px;
+    --spotlight-x: 50%;
+    --spotlight-y: 38%;
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background: #d8cbb7;
+    z-index: 0;
+}
+
+.interactive-background__art {
+    position: absolute;
+    inset: -36px;
+    background-image: url("/images/creation-of-intelligence.webp");
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    background-size: calc(100% - 72px) auto;
+    filter: saturate(.88) contrast(.96);
+    transform: translate3d(
+        var(--background-shift-x),
+        calc(var(--background-shift-y) + var(--background-scroll-y)),
+        0
+    );
+    transition: transform 180ms ease-out;
+    will-change: transform;
+}
+
+.interactive-background__veil {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle 18rem at var(--spotlight-x) var(--spotlight-y),
+            rgba(255, 250, 237, 0) 0%,
+            rgba(107, 82, 59, .05) 58%,
+            rgba(55, 39, 27, .18) 100%
+        ),
+        linear-gradient(
+            to bottom,
+            rgba(246, 238, 223, .02) 0%,
+            rgba(233, 222, 204, .10) 48%,
+            rgba(222, 211, 194, .78) 88%,
+            #ded3c2 100%
+        );
+}
+
+.masthead,
+#main {
+    position: relative;
+}
+
+.masthead {
+    background: rgba(250, 247, 240, .78);
+    border-bottom-color: rgba(98, 75, 53, .2);
+    box-shadow: 0 8px 30px rgba(55, 39, 27, .08);
+    -webkit-backdrop-filter: blur(16px) saturate(1.08);
+    backdrop-filter: blur(16px) saturate(1.08);
+}
+
+#main {
+    margin-top: clamp(18rem, 48vh, 34rem);
+    margin-bottom: 3rem;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background: rgba(250, 247, 240, .88);
+    border: 1px solid rgba(113, 87, 61, .18);
+    border-radius: 20px;
+    box-shadow: 0 22px 70px rgba(52, 37, 24, .18);
+    -webkit-backdrop-filter: blur(18px) saturate(1.05);
+    backdrop-filter: blur(18px) saturate(1.05);
+    z-index: 1;
+}
+
+.paper-box {
+    border-bottom-color: rgba(98, 75, 53, .16);
+}
+
+@media (max-width: 600px) {
+    .interactive-background__art {
+        inset: -1rem;
+        background-size: calc(100% - 2rem) auto;
+        background-position: center 1rem;
+        transform: translate3d(
+            var(--background-shift-x),
+            calc(var(--background-shift-y) + var(--background-scroll-y)),
+            0
+        );
+    }
+
+    .interactive-background__veil {
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(246, 238, 223, .02) 0%,
+                rgba(222, 211, 194, .64) 38%,
+                #ded3c2 56%
+            );
+    }
+
+    #main {
+        margin-top: 31vh;
+        margin-left: .55rem;
+        margin-right: .55rem;
+        padding-top: .6em;
+        border-radius: 14px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .interactive-background__art {
+        transform: none;
+        transition: none;
+    }
+}
