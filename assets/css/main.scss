@@ -109,7 +109,7 @@ h1:before, .anchor:before {
 }
 
 /* The fresco flows into the warm paper of the reading surface. */
-body { background: #f4f0e7; }
+html, body { background: #f4f0e7; }
 html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
 .masthead {
     position: relative;
@@ -157,35 +157,6 @@ html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
     background: linear-gradient(to bottom, rgba(244, 240, 231, .12), transparent 22%, transparent 48%, rgba(244, 240, 231, .35) 72%, #f4f0e7 100%);
     &::after { content: ""; position: absolute; inset: 0; background: #f4f0e7; opacity: var(--scroll-fade); }
 }
-.mural__controls {
-    position: absolute;
-    bottom: 1.5rem;
-    left: max(1.5rem, calc((100% - 1200px) / 2));
-    right: max(1.5rem, calc((100% - 1200px) / 2));
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-}
-.mural__explore, .mural__open {
-    display: inline-flex;
-    align-items: center;
-    gap: .85rem;
-    min-height: 44px;
-    padding: .55rem .9rem;
-    border: 1px solid rgba(85, 67, 45, .25);
-    border-radius: 999px;
-    background: rgba(244, 240, 231, .58);
-    color: #514636;
-    font: inherit;
-    font-size: 13px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background .2s, border-color .2s;
-    &:hover { color: #393124; background: #f4f0e7; border-color: #88755d; text-decoration: none; }
-    &:focus-visible { outline: 2px solid #97564e; outline-offset: 4px; }
-}
-.mural__open[hidden] { display: none; }
 #main {
     position: relative;
     margin-top: 0;
@@ -199,57 +170,19 @@ html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
     z-index: 1;
 }
 .paper-box { border-bottom-color: rgba(98, 75, 53, .16); }
-.artwork-open { overflow: hidden; }
-.mural-viewer {
-    box-sizing: border-box;
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    max-width: none;
-    height: 100%;
-    height: 100dvh;
-    max-height: none;
-    margin: 0;
-    padding: 70px 24px 24px;
-    border: 0;
-    background: rgba(25, 24, 20, .97);
-    color: #f4f0e7;
-    &::backdrop { background: #191814; }
-    &:not([open]) { display: none; }
-    &[open] { display: flex; align-items: center; justify-content: center; }
-    img { display: block; width: 100%; height: 100%; object-fit: contain; }
-}
-.mural-viewer__close {
-    position: absolute;
-    top: 16px;
-    right: 24px;
-    min-height: 44px;
-    padding: .5rem 1rem;
-    background: transparent;
-    border: 1px solid rgba(244, 240, 231, .4);
-    border-radius: 999px;
-    color: inherit;
-    font: inherit;
-    font-size: 14px;
-    cursor: pointer;
-    span { margin-left: .7rem; font-size: 20px; }
-    &:hover { background: rgba(244, 240, 231, .12); }
-    &:focus-visible { outline: 2px solid #f4f0e7; outline-offset: 4px; }
-}
+.author__urls,
+.greedy-nav .hidden-links { background: #f4f0e7; }
 @media (max-width: 600px) {
     .mural { height: clamp(310px, 80vw, 430px); }
     .mural__image { object-position: 40% center; }
-    .mural__controls { bottom: .8rem; left: 1rem; right: 1rem; }
     #main { margin-left: .55rem; margin-right: .55rem; padding-top: 1rem; }
-    .mural-viewer { padding: 70px 10px 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     .mural__canvas { transform: none; }
     .mural__light { display: none; }
-    .mural__explore, .mural__open { transition: none; }
 }
 @media print {
-    .mural, .mural-viewer { display: none !important; }
+    .mural { display: none !important; }
 }
 @import "research-loop";

@@ -57,18 +57,4 @@
     }).observe(mural);
   }
   queue();
-  var viewer = document.querySelector(".mural-viewer");
-  var open = document.querySelector(".mural__open");
-  if (!viewer || typeof viewer.showModal !== "function") return;
-  open.hidden = false;
-  open.addEventListener("click", function () {
-    viewer.showModal();
-    document.documentElement.classList.add("artwork-open");
-  });
-  viewer.querySelector("button").addEventListener("click", function () { viewer.close(); });
-  viewer.addEventListener("click", function (event) { if (event.target === viewer) viewer.close(); });
-  viewer.addEventListener("close", function () {
-    document.documentElement.classList.remove("artwork-open");
-    open.focus({ preventScroll: true });
-  });
 })();
