@@ -111,12 +111,23 @@ h1:before, .anchor:before {
 /* The fresco flows into the warm paper of the reading surface. */
 html, body { background: #f4f0e7; }
 html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
-a:focus:not(:focus-visible) { outline: 0; }
-a:focus-visible {
-    outline: 2px solid rgba(81, 70, 54, .72);
-    outline-offset: 3px;
+a:focus,
+a:focus-visible,
+a:active {
+    outline: 0 !important;
+    box-shadow: none !important;
 }
-#main:focus { outline: 0; }
+a:focus-visible {
+    text-decoration-thickness: 2px;
+    text-underline-offset: .16em;
+}
+#main,
+#main:focus,
+.page,
+.page__inner-wrap,
+.page__content {
+    outline: 0 !important;
+}
 .masthead {
     position: relative;
     background: #f4f0e7;
