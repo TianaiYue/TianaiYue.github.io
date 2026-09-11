@@ -46,7 +46,7 @@ Outside the lab, I enjoy traveling, playing polo, making visual art, and getting
 
 [Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration](https://neurips.cc/virtual/2025/poster/119080)
 
-Yan Zhuang*, Jiawei Ren*, Xiaokang Ye*, Jianzhi Shen, Ruixuan Zhang, **Tianai Yue**, Muhammad Faayez, Xuhong He, Xiyan Zhang, Ziqiao Ma, Lianhui Qin, Zhiting Hu, Tianmin Shu
+Yan Zhuang\*, Jiawei Ren\*, Xiaokang Ye\*, Jianzhi Shen, Ruixuan Zhang, **Tianai Yue**, Muhammad Faayez, Xuhong He, Xiyan Zhang, Ziqiao Ma, Lianhui Qin, Zhiting Hu, Tianmin Shu
 
 <details>
 <summary><strong>TL;DR</strong></summary>

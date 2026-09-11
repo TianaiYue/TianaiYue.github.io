@@ -11,17 +11,29 @@ layout: compress
 
   <body>
 
-    <div class="interactive-background" aria-hidden="true">
-      <div class="interactive-background__art"></div>
-      <div class="interactive-background__veil"></div>
-    </div>
-
     {% include browser-upgrade.html %}
     {% if site.data.navigation.main.size > 0 %}
       {% include masthead.html %}
     {% endif %}
 
-    <div id="main" role="main">
+    <section class="mural" aria-label="Creation of intelligence artwork">
+      <div class="mural__canvas">
+        <img class="mural__image" src="{{ '/images/creation-of-intelligence.webp' | relative_url }}" alt="A robot and a human reaching toward one another in a Renaissance-inspired fresco." fetchpriority="high" width="1868" height="842">
+        <div class="mural__light" aria-hidden="true"></div>
+      </div>
+      <div class="mural__fade" aria-hidden="true"></div>
+      <div class="mural__controls">
+        <a class="mural__explore" href="#main">Explore <span aria-hidden="true">↓</span></a>
+        <button class="mural__open" type="button" hidden>View artwork <span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <dialog class="mural-viewer" aria-label="Full artwork">
+      <button class="mural-viewer__close" type="button" aria-label="Close artwork">Close <span aria-hidden="true">×</span></button>
+      <img src="{{ '/images/creation-of-intelligence.webp' | relative_url }}" alt="Full fresco of a robot and a human reaching toward one another." width="1868" height="842" loading="lazy">
+    </dialog>
+
+    <div id="main" role="main" tabindex="-1">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">

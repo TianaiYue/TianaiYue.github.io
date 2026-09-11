@@ -108,130 +108,148 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-/* Interactive mural background
-   ========================================================================== */
-
-body {
-    background: #ded3c2;
+/* The fresco flows into the warm paper of the reading surface. */
+body { background: #f4f0e7; }
+html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+.masthead {
+    position: relative;
+    background: #f4f0e7;
+    border-bottom-color: rgba(98, 75, 53, .12);
 }
-
-.interactive-background {
-    --background-shift-x: 0px;
-    --background-shift-y: 0px;
-    --background-scroll-y: 0px;
-    --spotlight-x: 50%;
-    --spotlight-y: 38%;
-    position: fixed;
-    inset: 0;
+.mural {
+    --mural-x: 0px;
+    --mural-y: 0px;
+    --light-x: 50%;
+    --light-y: 50%;
+    --light-opacity: 0;
+    --scroll-fade: 0;
+    position: relative;
+    isolation: isolate;
+    height: clamp(290px, 44vw, 700px);
     overflow: hidden;
-    pointer-events: none;
     background: #d8cbb7;
-    z-index: 0;
 }
-
-.interactive-background__art {
+.mural__canvas {
     position: absolute;
-    inset: -36px;
-    background-image: url("/images/creation-of-intelligence.webp");
-    background-repeat: no-repeat;
-    background-position: center 20px;
-    background-size: calc(100% - 72px) auto;
-    filter: saturate(.88) contrast(.96);
-    transform: translate3d(
-        var(--background-shift-x),
-        calc(var(--background-shift-y) + var(--background-scroll-y)),
-        0
-    );
-    transition: transform 180ms ease-out;
-    will-change: transform;
+    inset: -16px -18px -60px;
+    transform: translate3d(var(--mural-x), var(--mural-y), 0);
 }
-
-.interactive-background__veil {
+.mural__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 43% 48%;
+    filter: saturate(.85);
+}
+.mural__light {
     position: absolute;
     inset: 0;
-    background:
-        radial-gradient(
-            circle 18rem at var(--spotlight-x) var(--spotlight-y),
-            rgba(255, 250, 237, 0) 0%,
-            rgba(107, 82, 59, .05) 58%,
-            rgba(55, 39, 27, .18) 100%
-        ),
-        linear-gradient(
-            to bottom,
-            rgba(246, 238, 223, .02) 0%,
-            rgba(233, 222, 204, .10) 48%,
-            rgba(222, 211, 194, .78) 88%,
-            #ded3c2 100%
-        );
+    pointer-events: none;
+    opacity: var(--light-opacity);
+    background: radial-gradient(ellipse 26% 48% at var(--light-x) var(--light-y), rgba(255, 238, 191, .25), transparent 100%);
+    mix-blend-mode: soft-light;
 }
-
-.masthead,
+.mural__fade {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(244, 240, 231, .12), transparent 22%, transparent 48%, rgba(244, 240, 231, .35) 72%, #f4f0e7 100%);
+    &::after { content: ""; position: absolute; inset: 0; background: #f4f0e7; opacity: var(--scroll-fade); }
+}
+.mural__controls {
+    position: absolute;
+    bottom: 1.5rem;
+    left: max(1.5rem, calc((100% - 1200px) / 2));
+    right: max(1.5rem, calc((100% - 1200px) / 2));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.mural__explore, .mural__open {
+    display: inline-flex;
+    align-items: center;
+    gap: .85rem;
+    min-height: 44px;
+    padding: .55rem .9rem;
+    border: 1px solid rgba(85, 67, 45, .25);
+    border-radius: 999px;
+    background: rgba(244, 240, 231, .58);
+    color: #514636;
+    font: inherit;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .2s, border-color .2s;
+    &:hover { color: #393124; background: #f4f0e7; border-color: #88755d; text-decoration: none; }
+    &:focus-visible { outline: 2px solid #97564e; outline-offset: 4px; }
+}
+.mural__open[hidden] { display: none; }
 #main {
     position: relative;
-}
-
-.masthead {
-    background: rgba(250, 247, 240, .78);
-    border-bottom-color: rgba(98, 75, 53, .2);
-    box-shadow: 0 8px 30px rgba(55, 39, 27, .08);
-    -webkit-backdrop-filter: blur(16px) saturate(1.08);
-    backdrop-filter: blur(16px) saturate(1.08);
-}
-
-#main {
-    margin-top: clamp(18rem, 48vh, 34rem);
+    margin-top: 0;
     margin-bottom: 3rem;
-    padding-top: 1.5em;
+    padding-top: 2rem;
     padding-bottom: 2em;
-    background: rgba(250, 247, 240, .88);
-    border: 1px solid rgba(113, 87, 61, .18);
-    border-radius: 20px;
-    box-shadow: 0 22px 70px rgba(52, 37, 24, .18);
-    -webkit-backdrop-filter: blur(18px) saturate(1.05);
-    backdrop-filter: blur(18px) saturate(1.05);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
     z-index: 1;
 }
-
-.paper-box {
-    border-bottom-color: rgba(98, 75, 53, .16);
+.paper-box { border-bottom-color: rgba(98, 75, 53, .16); }
+.artwork-open { overflow: hidden; }
+.mural-viewer {
+    box-sizing: border-box;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: 70px 24px 24px;
+    border: 0;
+    background: rgba(25, 24, 20, .97);
+    color: #f4f0e7;
+    &::backdrop { background: #191814; }
+    &:not([open]) { display: none; }
+    &[open] { display: flex; align-items: center; justify-content: center; }
+    img { display: block; width: 100%; height: 100%; object-fit: contain; }
 }
-
+.mural-viewer__close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    min-height: 44px;
+    padding: .5rem 1rem;
+    background: transparent;
+    border: 1px solid rgba(244, 240, 231, .4);
+    border-radius: 999px;
+    color: inherit;
+    font: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    span { margin-left: .7rem; font-size: 20px; }
+    &:hover { background: rgba(244, 240, 231, .12); }
+    &:focus-visible { outline: 2px solid #f4f0e7; outline-offset: 4px; }
+}
 @media (max-width: 600px) {
-    .interactive-background__art {
-        inset: -1rem;
-        background-size: calc(100% - 2rem) auto;
-        background-position: center 1rem;
-        transform: translate3d(
-            var(--background-shift-x),
-            calc(var(--background-shift-y) + var(--background-scroll-y)),
-            0
-        );
-    }
-
-    .interactive-background__veil {
-        background:
-            linear-gradient(
-                to bottom,
-                rgba(246, 238, 223, .02) 0%,
-                rgba(222, 211, 194, .64) 38%,
-                #ded3c2 56%
-            );
-    }
-
-    #main {
-        margin-top: 31vh;
-        margin-left: .55rem;
-        margin-right: .55rem;
-        padding-top: .6em;
-        border-radius: 14px;
-    }
+    .mural { height: clamp(310px, 80vw, 430px); }
+    .mural__image { object-position: 40% center; }
+    .mural__controls { bottom: .8rem; left: 1rem; right: 1rem; }
+    #main { margin-left: .55rem; margin-right: .55rem; padding-top: 1rem; }
+    .mural-viewer { padding: 70px 10px 16px; }
 }
-
 @media (prefers-reduced-motion: reduce) {
-    .interactive-background__art {
-        transform: none;
-        transition: none;
-    }
+    html { scroll-behavior: auto; }
+    .mural__canvas { transform: none; }
+    .mural__light { display: none; }
+    .mural__explore, .mural__open { transition: none; }
 }
-
+@media print {
+    .mural, .mural-viewer { display: none !important; }
+}
 @import "research-loop";
